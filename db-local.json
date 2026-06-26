@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1782116976472,
+      "email": "admin@dna.local",
+      "password": "$2a$10$roz0EBMNsLK..CagCkgkPOLGeHROZ/w7ZnFyS1Xi5tBsF/0CXdXIC",
+      "role": "admin",
+      "name": "Administrator",
+      "photo_url": null,
+      "created_at": "2026-06-22T08:29:36.285Z"
+    },
+    {
+      "id": 1782117068775,
+      "created_at": "2026-06-22T08:29:47.400Z",
+      "email": "ogabek1407@gmail.com",
+      "password": "$2a$10$P7tjRpXwnzTpyrBryQchgu2tyvTAI7sMl.SoyY1rnoYQsrdHJUc/q",
+      "role": "user"
+    },
+    {
+      "id": 1782117031807,
+      "created_at": "2026-06-22T08:30:21.624Z",
+      "email": "Agabek1407@gmail.com",
+      "password": "$2a$10$6SDNSKLZX0/4TJj/EESEhO5wGCJaBlER73E3rKWlFhY/ShnntTryq",
+      "role": "user"
+    },
+    {
+      "id": 1782464671507,
+      "created_at": "2026-06-26T09:03:35.255Z",
+      "email": "sultanovagabek16@gmail.com",
+      "password": "$2a$10$/Z3y2ULiNtsc2FCrtN/1vetYBCHxZqeqXrS8B/LZqwe/2qJHKZJYq",
+      "role": "user"
+    },
+    {
+      "id": 1782465139181,
+      "created_at": "2026-06-26T09:12:14.426Z",
+      "email": "sultanovagabek6@gmail.com",
+      "password": "$2a$10$mO1MEdMix0EVx8RsaoX.p.3Te6jkkj/6X3U1fwlvLjShqA74UJtCu",
+      "role": "user"
+    },
+    {
+      "id": 1782465553870,
+      "created_at": "2026-06-26T09:19:03.885Z",
+      "email": "ogabek14112007@gmail.com",
+      "password": "$2a$10$5at6rVRBy2XccmLsZHNzseiNt8e87JzeTSJGH/Mhev8wBD3JIZk3O",
+      "role": "user"
+    }
+  ],
+  "alignments": [
+    {
+      "id": 1782117929459,
+      "created_at": "2026-06-22T08:43:50.392Z",
+      "user_id": 1782117068775,
+      "type": "needleman-wunsch",
+      "sequence_a": "ATGCATTCGGA",
+      "sequence_b": "ATGCGTTCGAA",
+      "score": 16,
+      "result": {
+        "score": 16,
+        "alignedA": "ATGCATTCGGA",
+        "alignedB": "ATGCGTTCGAA",
+        "type": "needleman-wunsch",
+        "sequenceA": "ATGCATTCGGA",
+        "sequenceB": "ATGCGTTCGAA",
+        "analysis": {
+          "matches": 9,
+          "mismatches": 2,
+          "gaps": 0,
+          "identity": 82,
+          "gcContent": 45
+        }
+      }
+    },
+    {
+      "id": 1782237965132,
+      "created_at": "2026-06-23T18:05:39.780Z",
+      "user_id": 1782117068775,
+      "type": "needleman-wunsch",
+      "sequence_a": "ATGCATTCGGA",
+      "sequence_b": "ATGCGTTCGAA",
+      "score": 16,
+      "result": {
+        "score": 16,
+        "alignedA": "ATGCATTCGGA",
+        "alignedB": "ATGCGTTCGAA",
+        "type": "needleman-wunsch",
+        "sequenceA": "ATGCATTCGGA",
+        "sequenceB": "ATGCGTTCGAA",
+        "analysis": {
+          "matches": 9,
+          "mismatches": 2,
+          "gaps": 0,
+          "identity": 82,
+          "gcContent": 45
+        }
+      }
+    },
+    {
+      "id": 1782238362834,
+      "created_at": "2026-06-23T18:11:44.817Z",
+      "user_id": 1782117068775,
+      "type": "needleman-wunsch",
+      "sequence_a": "ATGCATTCGGA",
+      "sequence_b": "ATGCGTTCGAA",
+      "score": 16,
+      "result": {
+        "score": 16,
+        "alignedA": "ATGCATTCGGA",
+        "alignedB": "ATGCGTTCGAA",
+        "type": "needleman-wunsch",
+        "sequenceA": "ATGCATTCGGA",
+        "sequenceB": "ATGCGTTCGAA",
+        "analysis": {
+          "matches": 9,
+          "mismatches": 2,
+          "gaps": 0,
+          "identity": 82,
+          "gcContent": 45
+        }
+      }
+    },
+    {
+      "id": 1782466137166,
+      "created_at": "2026-06-26T09:28:08.201Z",
+      "user_id": 1782465139181,
+      "type": "needleman-wunsch",
+      "sequence_a": "AGAGGA",
+      "sequence_b": "ATGCGTTCGAA",
+      "score": 4,
+      "result": {
+        "score": 4,
+        "alignedA": "A-GAG---G-A",
+        "alignedB": "ATGCGTTCGAA",
+        "type": "needleman-wunsch",
+        "sequenceA": "AGAGGA",
+        "sequenceB": "ATGCGTTCGAA",
+        "analysis": {
+          "matches": 5,
+          "mismatches": 1,
+          "gaps": 5,
+          "identity": 83,
+          "gcContent": 36
+        }
+      }
+    },
+    {
+      "id": 1782466846791,
+      "created_at": "2026-06-26T09:39:08.883Z",
+      "user_id": 1782464671507,
+      "type": "needleman-wunsch",
+      "sequence_a": "ATATTCCT",
+      "sequence_b": "ATGCGTTCGAA",
+      "score": 4,
+      "result": {
+        "score": 4,
+        "alignedA": "AT--ATTC-CT",
+        "alignedB": "ATGCGTTCGAA",
+        "type": "needleman-wunsch",
+        "sequenceA": "ATATTCCT",
+        "sequenceB": "ATGCGTTCGAA",
+        "analysis": {
+          "matches": 5,
+          "mismatches": 3,
+          "gaps": 3,
+          "identity": 63,
+          "gcContent": 32
+        }
+      }
+    }
+  ],
+  "activities": []
+}
